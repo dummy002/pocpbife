@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+body, html, .App, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.outer{
+  flex: 1;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  background: #16a596;
+}
+
+.inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.outer .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.outer h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+.navbar{
+  height: 12vh;
+  width: 100%;
+  background-color: #16a596;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.navbar-title{
+  flex: 1;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f6f5f1;
+}
+
+.navbar-username{
+  color: #f6f5f1;
+}
+
+.logout-icon{
+  width: 18px;
+  cursor: pointer;
+}
+
+.spinner{
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.top-container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.report-style-class{
+  width: 1000px;
+  height: 600px;
+}
